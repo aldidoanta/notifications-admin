@@ -143,7 +143,7 @@ def get_errors_for_csv(recipients, template_type):
         if 1 == number_of_rows_with_empty_message:
             errors.append("add content to empty message in 1 row")
         else:
-            errors.append("add content to empty message {} rows".format(number_of_rows_with_empty_message))
+            errors.append("add content to empty messages {} rows".format(number_of_rows_with_empty_message))
 
     return errors
 
